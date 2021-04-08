@@ -1,0 +1,41 @@
+
+.center{
+    width: 18em;
+    height:23em;
+    border: 1px solid cyan;
+    background-color: cyan;
+    border-radius: 10%;
+    padding-bottom: 3.5em;
+    padding-right: .4em;
+}
+button{
+    width: 4em;
+    height: 4em;
+    border: 1px solid cyan;
+    background-color: darkcyan;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+.number{
+    padding: 1em 1em;
+}
+input[type='text']{
+    position: relative;
+    left: 1.2em;
+    top: 1em;
+    height: 2em;
+    width: 12.5em;
+    font-size: 14pt;
+    margin-bottom: 1em;
+    border-width:5px;  
+    border-style:outset;
+    direction: rtl;
+}
+
+button:hover{
+    border-radius: 50%;
+    transition: 200ms;
+}

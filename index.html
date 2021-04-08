@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>CALCULATOR</h1>
+    <section class="center">
+        <input type="text">
+        <table class="number">
+            <tr>
+                <td><button>CE</button></td>
+                <td><button onclick="clear()">C</button></td>
+                <td><button>DEL</button></td>
+                <td><button onclick="myfunction(this)" value="/">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="myfunction(this)" value="7">7</button></td>
+                <td><button onclick="myfunction(this)" value="8">8</button></td>
+                <td><button onclick="myfunction(this)" value="9">9</button></td>
+                <td><button onclick="myfunction(this)" value="*">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="myfunction(this)" value="4">4</button></td>
+                <td><button onclick="myfunction(this)" value="5">5</button></td>
+                <td><button onclick="myfunction(this)" value="6">6</button></td>
+                <td><button onclick="myfunction(this)" value="-">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="myfunction(this)" value="1">1</button></td>
+                <td><button onclick="myfunction(this)" value="2">2</button></td>
+                <td><button onclick="myfunction(this)" value="3">3</button></td>
+                <td><button onclick="myfunction(this)" value="+">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="myfunction(this)" value="&plusmn">&plusmn;</button></td>
+                <td><button onclick="myfunction(this)" value="0">0</button></td>
+                <td><button onclick="myfunction(this)" value=".">.</button></td>
+                <td><button onclick="result()" value="=">=</button></td>
+            </tr>
+        </table>
+    </section>
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
